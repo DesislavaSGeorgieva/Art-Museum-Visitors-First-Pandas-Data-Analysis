@@ -1,33 +1,34 @@
-# 🖼️ Art Museum Visitors – First Pandas Data Analysis
-*Simulated visitor data for Metropolitan & Guggenheim museums during and after COVID-19*
+# 🐼 First Pandas & Jupyter Notebook Demo
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project demonstrates how to use the **Pandas** library and **Matplotlib** in a Jupyter Notebook to analyze simulated attendance data for two major New York art museums – **The Metropolitan Museum of Art** and **The Guggenheim Museum**.
+This short project demonstrates basic use of **Pandas** and **Matplotlib** in a Jupyter Notebook. I used a small, simulated dataset representing visitor demographics to perform a few fundamental operations such as:
 
-The goal is to explore patterns in visitor demographics and behavior **before, during, and after the COVID-19 pandemic**.
+- Loading data from a '.csv' file
+- Grouping by categorical values
+- Calculating averages
+- Visualizing results with a simple bar chart
 
----
-
-## 🧪 Dataset Structure
-
-The dataset includes the following fields:
-
-| Column         | Description                            |
-|----------------|----------------------------------------|
-| `Visitor_ID`   | Unique visitor identifier              |
-| `Age`          | Age of the visitor                     |
-| `Gender`       | Gender category: Male / Female / Other |
-| `Occupation`   | Profession of the visitor              |
-| `Visit_Date`   | Date of the museum visit               |
-| `Period`       | Pandemic period: Pre-COVID / During-COVID / Post-COVID |
-| `Museum`       | Metropolitan or Guggenheim             |
-
-*📝 Note: All data is fictitious and created for educational purposes.*
+The project is intended as a first step in showcasing my ability to use Python for data exploration and visualization.
 
 ---
 
-## ⚙️ Technologies Used
+## 🧪 Dataset
+
+The dataset contains sample information such as:
+
+| Column      | Description                     |
+|-------------|---------------------------------|
+| 'Visitor_ID | Unique visitor identifier       |
+| 'Age'       | Age of the visitor              |
+| 'Gender'    | Gender (Male/Female/Other)      |
+| 'Period'    | Example category for grouping   |
+
+**Note:** Data is simulated for educational purposes.
+
+---
+
+## ⚙️ Tools Used
 
 - 🐍 Python 3.x  
 - 🧮 Pandas  
@@ -37,67 +38,35 @@ The dataset includes the following fields:
 
 ---
 
-## 🔍 Key Steps in Analysis
+## 📈 Result
 
-### 1. 🧹 Data Loading & Inspection
-- Load data from CSV
-- Check shape, types, and missing values
+A basic visualization (bar chart) shows the average age of visitors across different periods.
 
-### 2. 📊 Aggregations & Calculations
-- Group visitors by pandemic period
-- Calculate average age per period
-- Analyze demographic trends
-
-### 3. 📈 Visualization
-- Create a **bar chart** to show changes in average age across COVID periods
+This helped me practice:
+- Using 'groupby()' and '.mean()' in Pandas  
+- Creating plots with 'matplotlib.pyplot' 
+- Writing well-structured Jupyter Notebooks
 
 ---
 
-## 📌 Insights & Conclusions
+## 💡 What I Learned
 
-- The average age of visitors **decreased during the COVID period**, possibly due to travel limitations or safety concerns among older demographics.
-- **Post-COVID attendance** appears to return to a broader age distribution.
-- This analysis can support future strategies for cultural institutions in adapting outreach and programming to various visitor groups.
-
----
-
-## 🧠 What I Learned
-
-- Structuring data for analysis with **Pandas**
-- Using `groupby()` and `.mean()` to extract insights
-- Creating simple and meaningful **visualizations**
-- Writing clean, readable **Jupyter Notebooks**
-- Documenting a project clearly for public presentation
-
----
-
-## 📎 Files Included
-
-- `Project with Pandas in Jupyter Notebook.ipynb` – main notebook  
-- (optional) `museum_visitors.csv` – dataset (if you want to include it)
-- `README.md` – this documentation file  
-
----
-
-## ✨ Next Steps (Ideas)
-
-- Add more complex queries (e.g., visits by gender or occupation)
-- Incorporate **Seaborn** for more sophisticated plots
-- Add trendlines or multiple charts per museum
-- Expand the dataset to include exhibition data
+- Structuring simple Pandas workflows  
+- Using markdown in Jupyter for clarity  
+- GitHub versioning and public sharing of notebooks  
 
 ---
 
 ## 👩‍💻 Author
 
 **Desislava Georgieva**  
-🌍 Kyustendil, Bulgaria  
 📫 desislava.strahilova.georgieva@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/desislava-s-georgieva)  
-🔗 [GitHub Portfolio](https://github.com/DesislavaSGeorgieva)
+🔗 [GitHub Portfolio](https://github.com/DesislavaSGeorgieva)  
+🔗 [LinkedIn](https://www.linkedin.com/in/desislava-s-georgieva)
 
 ---
 
-## 📢 License
+## 📎 Files
 
-This project is for educational purposes only and is shared under the [MIT License](LICENSE).
+- 'Project with Pandas in Jupyter Notebook.ipynb` – main notebook  
+- 'museum_visitors.csv' – sample input data  
