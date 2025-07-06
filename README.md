@@ -19,10 +19,10 @@ The dataset contains sample information such as:
 
 | Column      | Description                     |
 |-------------|---------------------------------|
-| 'Visitor_ID | Unique visitor identifier       |
-| 'Age'       | Age of the visitor              |
-| 'Gender'    | Gender (Male/Female/Other)      |
 | 'Period'    | Example category for grouping   |
+| 'Visits'    | Visits number per period        |
+| 'Age'       | Age of the visitor              |
+
 
 **Note:** Data is simulated for educational purposes.
 
